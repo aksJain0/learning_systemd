@@ -1,0 +1,8 @@
+[Unit]
+Description= Flask App Service
+
+[Service]
+ExecStart=python3 /home/vikasa/flask-by-example/app.python3
+
+[Install]
+WantedBy=multi-user.target
